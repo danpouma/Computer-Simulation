@@ -1,0 +1,17 @@
+Model a computer using von neumann architecture
+Print a welcome message
+Prompt the user for memory size - use malloc to create a dynamically allocated array
+Print a menu that allows the user to
+	- load a program into memory
+	- run the program in memory
+	- dump (aka print) all memory locations and the registers to the console
+When loading the program prompt the user with a memory location. the user will enter an instruction for that location. All the user to keep entering instructions until the memory limit is reached or until the user enters an instruction too large for a memory word (999999) - See below for an example
+Upon completion of execution (by failure or success) dump the memory and the registers - see below for an example
+Your program should report an error if a memory word overflows (exceeds the value 99999) or if in improper address is encountered
+Your code must meet the following technical specifications
+	- no global variables allowed
+	- use at least one pointer
+	- use malloc to create an array
+	- create at least three functions
+	- at least one function should have the parameters passed by reference
+	- use at least one #define
